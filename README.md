@@ -32,6 +32,12 @@ TODO Write something about the dependencies this extension has to other software
 
 TODO Write instructions how to build the .oxt file.
 
+## More documentation
+
+- [LibreOffice Development notes](doc/LibreOfficeDevelopment.md)
+- [TODO list](doc/TODO.md)
+
+
 # License
 
 This LibreOffice extension is released under the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) (2.0). Here's the [link to the license file](LICENSE).
