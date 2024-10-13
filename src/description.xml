@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description
+   xmlns = "http://openoffice.org/extensions/description/2006"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:d="http://openoffice.org/extensions/description/2006">
+
+   <identifier value="swisspost-tracking-libreoffice.ch.herzbube" />
+
+   <version value="0.1" />
+
+   <extension-description>
+      <src xlink:href="description/description-en.txt" lang="en"/>
+   </extension-description>
+
+   <display-name>
+      <name>Track Swiss Post shipments</name>
+   </display-name>
+
+   <registration>
+      <simple-license accept-by="user" suppress-on-update="true" >
+         <license-text xlink:href="LICENSE" lang="en" />
+      </simple-license>
+   </registration>
+
+   <publisher>
+      <name xlink:href="https://github.com/herzbube/swisspost-tracking-libreoffice" lang="en">Project page on GitHub</name>
+   </publisher>
+</description>
