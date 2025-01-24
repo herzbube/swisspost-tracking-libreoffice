@@ -6,9 +6,11 @@ This is a LibreOffice extension written in the Python programming language with 
 
 To use this extension you first need to have a billing relationship with Swiss Post. Follow [this link](https://www.post.ch/en/business-solutions/become-a-business-customer) to get started.
 
-Once you have established a billing relationship, the next thing you need to do is to register with Swiss Post to use the relevant REST API. Follow [this link](https://developer.apis.post.ch/ui/apis/5cff6ab7-8325-4a05-bf6a-b783256a0552) to get started.
+Once you have established a billing relationship, the next thing you need to do is to register with Swiss Post to use the "Track consignment" REST API. Follow [this link](https://developer.apis.post.ch/ui/apis/f7abf4c4-4a6e-49d4-abf4-c44a6e69d481) to get started.
 
 Once you have registered you are ready to install the extension and configure it with the credentials you received during registration.
+
+**Important:** The "Track consignment" API identifies so-called "mail pieces" via "mail piece id". This is an id provided by Swiss Post when you generate an address label via their Barcode API. So you cannot use the "Track consignment" API - or in other words: this LibreOffice extension - without also using the Barcode API. To register for the Barcode API, follow [this link](https://developer.apis.post.ch/ui/apis/5cff6ab7-8325-4a05-bf6a-b783256a0552). Note however that generating address labels is not something this LibreOffice extension does.
 
 ## Installation
 
