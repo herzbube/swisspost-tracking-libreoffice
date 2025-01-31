@@ -21,13 +21,13 @@ from com.sun.star.task import XJobExecutor
 
 EXTENSION_ID = 'swisspost-tracking-libreoffice.ch.herzbube'
 
-def writeIntoTextDocument(desktop, text):
+def writeIntoTextDocument(desktop, textToAdd):
     xModel = desktop.getCurrentComponent()
     if not hasattr(xModel, "Text"):
         xModel = desktop.loadComponentFromURL("private:factory/swriter", "_blank", 0, ())
     text = xModel.Text
     cursor = text.createTextCursor()
-    text.insertString(cursor, text + "\n", 0)
+    text.insertString(cursor, textToAdd + "\n", 0)
 
 def showMessageBox(desktop, message, title):
     from com.sun.star.awt.MessageBoxType import MESSAGEBOX, INFOBOX, WARNINGBOX, ERRORBOX, QUERYBOX

@@ -1,5 +1,9 @@
 # Build products
 build/
 
+# OpenAPI definitions
+openapi-definition/
+
 # Other files
 .DS_Store
+secrets.json

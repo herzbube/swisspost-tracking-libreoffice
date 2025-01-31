@@ -9,3 +9,4 @@ This file contains notes taken during initial development of the extension about
 - Provide German translation.
 - Find out whether there is a minimal version of LibreOffice required. If yes, add the `<dependencies>` element to `description.xml`. See how it's done in APSO.
 - Find a way how to prevent duplication of the LICENSE file. Currently the file is present in the Git repo root folder, but also in the `src` folder so that it can be easily packaged.
+- Update top-level README.md once more reliable information about the mail piece id is known. If the mailpiece id is crafted from other pieces of information, then usage of the Barcode API may not be a precondition to use the Track Consignments API after all.
